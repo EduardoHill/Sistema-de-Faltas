@@ -9,6 +9,7 @@ Este projeto implementa **todas as 11 telas** solicitadas para o sistema de pres
 ## 🔧 Arquitetura e Melhorias
 
 ### Estrutura Otimizada
+
 ```
 src/
 ├── components/          # Componentes React
@@ -23,12 +24,14 @@ src/
 ```
 
 ### Hooks Customizados
+
 - **useForm** - Gerenciamento de formulários com validação
 - **useList** - Gerenciamento de listas com busca, filtro e ordenação
 - **useNotification** - Sistema de notificações da aplicação
 - **useIsMobile** - Detecção de dispositivos móveis
 
 ### Características Técnicas
+
 - ✅ **Performance**: Uso de `useCallback` e `useMemo`
 - ✅ **Manutenibilidade**: Código organizado e reutilizável
 - ✅ **Escalabilidade**: Estrutura preparada para crescimento
@@ -38,11 +41,13 @@ src/
 ## 🎨 Design e Características
 
 ### Paleta de Cores
+
 - **70% Branco** - Fundo principal e cards
 - **30% Azul Marinho** - Elementos de destaque, botões e navegação
 - **Tons de Cinza** - Textos secundários e bordas
 
 ### Características Visuais
+
 - ✅ Design limpo e profissional
 - ✅ Interface responsiva (desktop e mobile)
 - ✅ Componentes modernos com shadcn/ui
@@ -53,6 +58,7 @@ src/
 ## 📱 Telas Implementadas
 
 ### 1. **Login Screen**
+
 - Formulário de login centralizado
 - Seleção de tipo de usuário (Admin, Professor, Aluno, Chefe Depto)
 - Campos para email e senha
@@ -60,12 +66,14 @@ src/
 - Logo universitário
 
 ### 2. **Department Management** (Admin)
+
 - Lista de departamentos com busca e filtros
 - Formulário para adicionar/editar departamentos
 - Estatísticas de cursos e professores
 - Ações de ativação/desativação
 
 ### 3. **Batch Upload** (Admin)
+
 - Interface de upload em lote com drag & drop
 - Suporte para múltiplos tipos de arquivo
 - Barra de progresso de upload
@@ -73,6 +81,7 @@ src/
 - Validação de formatos
 
 ### 4. **Grade Closure** (Chefe Departamento)
+
 - Lista de disciplinas para fechamento
 - Filtros por período e status
 - Visualização de estatísticas de frequência
@@ -80,12 +89,14 @@ src/
 - Relatórios de frequência
 
 ### 5. **Course Management** (Chefe Departamento)
+
 - Gerenciamento de cursos e disciplinas
 - Atribuição de professores
 - Configuração de horários
 - Gestão de turmas e períodos
 
 ### 6. **Professor Dashboard**
+
 - Visão geral das disciplinas
 - Estatísticas de frequência por turma
 - Atalhos para lançamento de faltas
@@ -93,6 +104,7 @@ src/
 - Calendário acadêmico
 
 ### 7. **Attendance Entry** (Professor)
+
 - Lançamento de faltas por disciplina
 - Lista de alunos com presença/falta
 - Filtros por data e turma
@@ -100,6 +112,7 @@ src/
 - Histórico de presenças
 
 ### 8. **Justification Review** (Professor)
+
 - Lista de justificativas de faltas
 - Análise de documentos anexados
 - Aprovação/rejeição de justificativas
@@ -107,6 +120,7 @@ src/
 - Histórico de decisões
 
 ### 9. **Student Dashboard**
+
 - Visão geral da frequência
 - Disciplinas matriculadas
 - Alertas de frequência baixa
@@ -114,6 +128,7 @@ src/
 - Calendário de aulas
 
 ### 10. **Notifications**
+
 - Centro de notificações unificado
 - Filtros por tipo e status
 - Notificações em tempo real
@@ -121,6 +136,7 @@ src/
 - Configurações de preferências
 
 ### 11. **Settings**
+
 - Configurações de perfil
 - Preferências de notificação
 - Configurações de segurança
@@ -174,10 +190,12 @@ university-attendance-system/
 ## 🛠️ Instalação e Uso
 
 ### Pré-requisitos
-- Node.js 18+ 
+
+- Node.js 18+
 - npm, yarn ou pnpm
 
 ### Configuração do Ambiente
+
 ```bash
 # Clonar o projeto
 git clone <repository-url>
@@ -202,6 +220,7 @@ yarn dev
 ```
 
 ### Scripts Disponíveis
+
 ```bash
 npm run dev      # Inicia o servidor de desenvolvimento
 npm run build    # Cria build de produção
@@ -210,11 +229,13 @@ npm run lint     # Executa o linter
 ```
 
 ### Acesso
+
 - Abra http://localhost:5173 no navegador
 - Use qualquer email e senha para fazer login
 - Selecione o tipo de usuário desejado
 
 ### Credenciais de Demonstração
+
 - **Email:** qualquer@email.com
 - **Senha:** qualquer senha
 - **Tipos:** Administrador, Professor, Aluno, Chefe de Departamento
@@ -222,21 +243,25 @@ npm run lint     # Executa o linter
 ## 👥 Perfis de Usuário
 
 ### Administrador
+
 - Gerenciamento de departamentos
 - Upload em lote de dados
 - Acesso a todas as funcionalidades
 
 ### Chefe de Departamento
+
 - Gerenciamento de cursos
 - Fechamento de pautas
 - Supervisão de professores
 
 ### Professor
+
 - Dashboard de disciplinas
 - Lançamento de faltas
 - Revisão de justificativas
 
 ### Aluno
+
 - Dashboard pessoal
 - Visualização de frequência
 - Submissão de justificativas
@@ -244,6 +269,7 @@ npm run lint     # Executa o linter
 ## 🎯 Funcionalidades Visuais
 
 ### Interações
+
 - ✅ Hover effects em botões e cards
 - ✅ Transições suaves entre estados
 - ✅ Loading states e feedback visual
@@ -251,12 +277,14 @@ npm run lint     # Executa o linter
 - ✅ Formulários interativos
 
 ### Responsividade
+
 - ✅ Layout adaptável para desktop
 - ✅ Interface otimizada para tablet
 - ✅ Design mobile-friendly
 - ✅ Navegação touch-friendly
 
 ### Acessibilidade
+
 - ✅ Contraste adequado de cores
 - ✅ Hierarquia visual clara
 - ✅ Navegação por teclado
@@ -283,4 +311,3 @@ O projeto entrega um sistema visual completo e profissional para gerenciamento d
 ---
 
 **Desenvolvido com ❤️ para o sistema universitário**
-
