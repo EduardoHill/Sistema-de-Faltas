@@ -310,4 +310,8 @@ O projeto entrega um sistema visual completo e profissional para gerenciamento d
 
 ---
 
-**Desenvolvido com ❤️ para o sistema universitário**
+## 💜 Contribuidores
+
+Feito com muito empenho pela equipe, composta por:
+
+> • [Eduardo Hill](https://github.com/EduardoHill) • [Enzo Faceroli](https://github.com/enzofaceroli) • [Lukas de Sá](https://github.com/lukasffsa) • [Vitor Vale](https://github.com/vitortvale)
